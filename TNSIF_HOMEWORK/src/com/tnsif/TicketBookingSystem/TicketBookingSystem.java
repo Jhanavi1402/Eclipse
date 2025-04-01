@@ -1,4 +1,4 @@
-package com.tns.TicketBooking;
+package com.tnsif.TicketBookingSystem;
 
 public class TicketBookingSystem {
     private static int tickets = 5;
@@ -8,7 +8,7 @@ public class TicketBookingSystem {
     }
     
     public void bookTicket() {
-        if (tickets != 0) {
+        if (tickets > 0) {
             System.out.println("Ticket booked successfully!");
             tickets--;
         } else {
@@ -26,4 +26,3 @@ public class TicketBookingSystem {
 		return "TicketBookingSystem []";
 	}
 }
-

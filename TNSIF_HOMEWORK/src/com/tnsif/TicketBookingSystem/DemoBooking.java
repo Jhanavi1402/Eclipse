@@ -1,4 +1,4 @@
-package com.tns.TicketBooking;
+package com.tnsif.TicketBookingSystem;
 
 public class DemoBooking {
     public static void main(String[] args) {
