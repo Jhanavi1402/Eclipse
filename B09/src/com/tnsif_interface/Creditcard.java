@@ -16,7 +16,6 @@ public class Creditcard implements payment{
 	@Override
 	public void process(double amt) {
 		System.out.println("Processing credit card payemt is Rs. "+amt+" using credit card No.: "+cardNo);
-		// TODO Auto-generated method stub
 		
 	}
 

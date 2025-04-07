@@ -11,7 +11,7 @@ public class Debitcard implements payment{
 	@Override
 	public void process(double amt) {
 		System.out.println("Processing debit card payment of Rs. "+amt+"  using Debit card No.: "+cardNo);
-		// TODO Auto-generated method stub
+		
 		
 	}
 	
