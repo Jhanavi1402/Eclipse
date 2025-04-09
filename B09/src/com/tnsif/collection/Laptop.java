@@ -4,7 +4,14 @@ public class Laptop implements Comparable<Laptop> {
 	private String brand;
 	private int ram;
 	private int price;
-	
+
+	public Laptop(String brand, int ram, int price) {
+		super();
+		this.brand = brand;
+		this.ram = ram;
+		this.price = price;
+	}
+
 	public String getBrand() {
 		return brand;
 	}
@@ -32,6 +39,16 @@ public class Laptop implements Comparable<Laptop> {
 	@Override
 	public String toString() {
 		return "Laptop [brand=" + brand + ", ram=" + ram + ", price=" + price + "]";
+	}
+
+	@Override
+	public int compareTo(Laptop o) {
+		// TODO Auto-generated method stub
+		if(this.getRam()>o.getRam()) {
+			return 1;
+		}
+		else
+		return -1;
 	}
 	
 	
