@@ -5,6 +5,7 @@ import java.util.Collections;
 public interface ArrayListDemo {
 	public static void main(String[] args) {
 		ArrayList <Integer> List=new ArrayList <Integer> ();
+		
 		System.out.println("the size of the arrayList"+List.isEmpty());
 		System.out.println("the size of the arrayList"+List.size());
 		List.add(2);
@@ -19,7 +20,7 @@ public interface ArrayListDemo {
 		System.out.println(List.remove(1));
 		System.out.println(List);
 		System.out.println(List.get(0));
-		Collections.sort(List);
+		//Collections.sort(List);
 		System.out.println(List);
 		}
 	
