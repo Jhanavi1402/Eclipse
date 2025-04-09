@@ -1,4 +1,4 @@
-package com.tnsif_final;
+package com.tnsif.Final;
 
 public class MyDemo {
 
