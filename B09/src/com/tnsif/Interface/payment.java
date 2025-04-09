@@ -1,4 +1,4 @@
-package com.tnsif_interface;
+package com.tnsif.Interface;
 
 public interface payment {
 	void process(double amt);
