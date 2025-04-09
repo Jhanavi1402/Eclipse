@@ -1,4 +1,4 @@
-package com.tns.nonaccess;
+package com.tnsif.nonaccess;
 
 public class demo {
 	public static void main(String[] args) {
