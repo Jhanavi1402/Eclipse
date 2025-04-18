@@ -13,6 +13,7 @@ public class Demo {
 		ar.add(new Student(45,"Qamreen","mysore"));
 		ar.add(new Student(2,"aaaa","ranchi"));
 		System.out.println("-----------------");
+		//ar.sort(a,b->b.compare)
 		Collections.sort(ar,new SortRoll());
 		for (int i=0; i<ar.size();i++) {
 			System.out.println(ar.get(i));
