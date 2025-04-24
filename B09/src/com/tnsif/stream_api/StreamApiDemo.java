@@ -1,4 +1,4 @@
-package stream_api;
+package com.tnsif.stream_api;
 import java.util.*;
 import java.util.stream.Collectors;
 //import java.util.stream.*; can import it this way too
