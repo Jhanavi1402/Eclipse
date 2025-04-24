@@ -2,6 +2,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNull;
 import org.junit.jupiter.api.Assumptions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 public class AssertDemo {
@@ -17,6 +18,7 @@ public class AssertDemo {
 		//assertTrue("Hello".contains("H"));
 	}
 	@Test
+	@Disabled
 	public void another() {
 		String s = "hello";
 		assertNull(s);

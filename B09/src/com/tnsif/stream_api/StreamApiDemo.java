@@ -7,7 +7,7 @@ public class StreamApiDemo {
 
 	public static void main(String[] args) {
 		//asList converts array into list
-		List<String> names = Arrays.asList("Hello","World","Alice","","Jhanavi","Katharine","Sandhya","Kedhar","Luxmi");
+		List<String> names = Arrays.asList("Hello","World","Alice","","Jhanavi","Katharine","Sandhya","Kedhar","Akash","Luxmi");
 		List<String> result = names.stream().filter(name -> name.startsWith("A"))
                 							.map(String::toUpperCase)
                 							.collect(Collectors.toList());
